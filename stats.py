@@ -10,3 +10,8 @@ def get_user(users, user_id):
         if users[i]["id"] == user_id:
             return users[i]
     return None
+
+
+
+   def ratio(a, b):
+       return a / b
